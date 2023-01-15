@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,Dialog::class.java))
         }
 
-        Log.i("ciclodevida", "OnCreate")
+        Log.i("ciclo de vida de una app", "OnCreate")
     }
 
     override fun onStart() {
